@@ -11,8 +11,8 @@ namespace SW_API_Tips_Tricks
         static void Main(string[] args)
         {
 
-            CommandInProgress.Example.Run();
-
+            //CommandInProgress.Example.Run();
+            EnableGraphicsUpdate.Example.Run();
 
             Console.ReadLine();
         }

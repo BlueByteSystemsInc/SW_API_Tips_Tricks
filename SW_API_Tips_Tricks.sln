@@ -13,6 +13,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommandInProgress", "Comman
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandInProgress", "CommandInProgress\CommandInProgress.csproj", "{0CE35714-DF1F-430A-90E9-C10E13C33B80}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EnableGraphicsUpdate", "EnableGraphicsUpdate", "{0FAEA605-7FA1-4903-91F9-21102E046B30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnableGraphicsUpdate", "EnableGraphicsUpdate\EnableGraphicsUpdate.csproj", "{13096CCD-B828-4932-A17D-4E58E6DB392F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,12 +31,17 @@ Global
 		{0CE35714-DF1F-430A-90E9-C10E13C33B80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CE35714-DF1F-430A-90E9-C10E13C33B80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CE35714-DF1F-430A-90E9-C10E13C33B80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13096CCD-B828-4932-A17D-4E58E6DB392F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13096CCD-B828-4932-A17D-4E58E6DB392F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13096CCD-B828-4932-A17D-4E58E6DB392F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13096CCD-B828-4932-A17D-4E58E6DB392F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0CE35714-DF1F-430A-90E9-C10E13C33B80} = {E86B8A27-6797-4631-9F51-5875D3EE3A21}
+		{13096CCD-B828-4932-A17D-4E58E6DB392F} = {0FAEA605-7FA1-4903-91F9-21102E046B30}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2F04F7D1-18E7-4F1A-8F24-73ECE7EF8277}
