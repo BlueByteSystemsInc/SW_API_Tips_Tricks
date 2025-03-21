@@ -12,8 +12,8 @@ namespace SW_API_Tips_Tricks
         {
 
             //CommandInProgress.Example.Run();
-            EnableGraphicsUpdate.Example.Run();
-
+            // EnableGraphicsUpdate.Example.Run();
+            EnableFeatureTree.Example.Run();
             Console.ReadLine();
         }
     }
