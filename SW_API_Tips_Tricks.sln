@@ -21,6 +21,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EnableFeatureTree", "Enable
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnableFeatureTree", "EnableFeatureTree\EnableFeatureTree.csproj", "{12941B8B-3E1F-4A13-840A-914C81317ECC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserControlBackground", "UserControlBackground", "{F998CA2B-0FFC-4F1C-868A-10F200BAD221}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserControlBackground", "UserControlBackground\UserControlBackground.csproj", "{487A83A3-2316-4CD1-9BE0-0C2D4F7F14B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +47,10 @@ Global
 		{12941B8B-3E1F-4A13-840A-914C81317ECC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12941B8B-3E1F-4A13-840A-914C81317ECC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12941B8B-3E1F-4A13-840A-914C81317ECC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{487A83A3-2316-4CD1-9BE0-0C2D4F7F14B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{487A83A3-2316-4CD1-9BE0-0C2D4F7F14B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{487A83A3-2316-4CD1-9BE0-0C2D4F7F14B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{487A83A3-2316-4CD1-9BE0-0C2D4F7F14B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +59,7 @@ Global
 		{0CE35714-DF1F-430A-90E9-C10E13C33B80} = {E86B8A27-6797-4631-9F51-5875D3EE3A21}
 		{13096CCD-B828-4932-A17D-4E58E6DB392F} = {0FAEA605-7FA1-4903-91F9-21102E046B30}
 		{12941B8B-3E1F-4A13-840A-914C81317ECC} = {238F2A04-B8F7-432B-A3D7-2ED9DC25D55F}
+		{487A83A3-2316-4CD1-9BE0-0C2D4F7F14B5} = {F998CA2B-0FFC-4F1C-868A-10F200BAD221}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2F04F7D1-18E7-4F1A-8F24-73ECE7EF8277}

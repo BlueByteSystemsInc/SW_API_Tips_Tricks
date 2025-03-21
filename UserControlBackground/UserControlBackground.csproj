@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FB0689F3-70DE-4751-81B4-19C0337E4F51}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>SW_API_Tips_Tricks</RootNamespace>
-    <AssemblyName>SW_API_Tips_Tricks</AssemblyName>
+    <ProjectGuid>{487A83A3-2316-4CD1-9BE0-0C2D4F7F14B5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UserControlBackground</RootNamespace>
+    <AssemblyName>UserControlBackground</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -22,10 +21,8 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -39,19 +36,19 @@
     </Reference>
     <Reference Include="SolidWorks.Interop.sldworks, Version=29.1.0.61, Culture=neutral, PublicKeyToken=7c4797c3e4eeac03, processorArchitecture=MSIL">
       <HintPath>..\packages\BlueByte.SOLIDWORKS.Interops.2021.3.0\lib\SolidWorks.Interop.sldworks.dll</HintPath>
-      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="SolidWorks.Interop.swcommands, Version=29.1.0.61, Culture=neutral, PublicKeyToken=0fda92720ba7919f, processorArchitecture=MSIL">
       <HintPath>..\packages\BlueByte.SOLIDWORKS.Interops.2021.3.0\lib\SolidWorks.Interop.swcommands.dll</HintPath>
-      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="SolidWorks.Interop.swconst, Version=29.1.0.61, Culture=neutral, PublicKeyToken=19f43e188e4269d8, processorArchitecture=MSIL">
       <HintPath>..\packages\BlueByte.SOLIDWORKS.Interops.2021.3.0\lib\SolidWorks.Interop.swconst.dll</HintPath>
-      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="SolidWorks.Interop.swpublished, Version=29.1.0.61, Culture=neutral, PublicKeyToken=89a97bdc5284e6d8, processorArchitecture=MSIL">
       <HintPath>..\packages\BlueByte.SOLIDWORKS.Interops.2021.3.0\lib\SolidWorks.Interop.swpublished.dll</HintPath>
-      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -63,33 +60,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Example.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
     <None Include="packages.config" />
-    <Content Include="tank_20lb_propane_&amp;.SLDPRT">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\CommandInProgress\CommandInProgress.csproj">
-      <Project>{0ce35714-df1f-430a-90e9-c10e13c33b80}</Project>
-      <Name>CommandInProgress</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\EnableFeatureTree\EnableFeatureTree.csproj">
-      <Project>{12941b8b-3e1f-4a13-840a-914c81317ecc}</Project>
-      <Name>EnableFeatureTree</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\EnableGraphicsUpdate\EnableGraphicsUpdate.csproj">
-      <Project>{13096ccd-b828-4932-a17d-4e58e6db392f}</Project>
-      <Name>EnableGraphicsUpdate</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\UserControlBackground\UserControlBackground.csproj">
-      <Project>{487a83a3-2316-4cd1-9be0-0c2d4f7f14b5}</Project>
-      <Name>UserControlBackground</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
