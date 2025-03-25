@@ -15,8 +15,8 @@ namespace SW_API_Tips_Tricks
             // EnableGraphicsUpdate.Example.Run();
             //EnableFeatureTree.Example.Run();
             //UserControlBackground.Example.Run();
-
-            ReleaseCOMObject.Example.Run();
+            //ReleaseCOMObject.Example.Run();
+            TraverseTree.Example.Run();
             Console.ReadLine();
         }
     }
