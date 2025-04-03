@@ -1,4 +1,4 @@
 # Report Progress
 
-![Report Progress](reportprogress.png)
+![Report Progress](ReportProgress.png)
 
