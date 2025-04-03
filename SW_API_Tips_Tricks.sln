@@ -33,6 +33,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TraverseTree", "TraverseTre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraverseTree", "TraverseTree\TraverseTree.csproj", "{BC3808EE-2F10-4AAF-A26B-BAAE0EDF36A1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReportProgress", "ReportProgress", "{3A68C664-0F35-4C8D-B3C4-0B603F005DE9}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportProgress", "ReportProgress\ReportProgress.csproj", "{227A9700-E83D-4A61-94AC-21E492C0C55F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +74,10 @@ Global
 		{BC3808EE-2F10-4AAF-A26B-BAAE0EDF36A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC3808EE-2F10-4AAF-A26B-BAAE0EDF36A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC3808EE-2F10-4AAF-A26B-BAAE0EDF36A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{227A9700-E83D-4A61-94AC-21E492C0C55F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{227A9700-E83D-4A61-94AC-21E492C0C55F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{227A9700-E83D-4A61-94AC-21E492C0C55F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{227A9700-E83D-4A61-94AC-21E492C0C55F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,6 +89,7 @@ Global
 		{487A83A3-2316-4CD1-9BE0-0C2D4F7F14B5} = {F998CA2B-0FFC-4F1C-868A-10F200BAD221}
 		{439DA6FD-F105-4ECC-9B93-3B411773989B} = {ABCAE877-B8C8-493C-806E-616F5EE476EF}
 		{BC3808EE-2F10-4AAF-A26B-BAAE0EDF36A1} = {046927B8-0D68-4241-B492-8E0DABBA223C}
+		{227A9700-E83D-4A61-94AC-21E492C0C55F} = {3A68C664-0F35-4C8D-B3C4-0B603F005DE9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2F04F7D1-18E7-4F1A-8F24-73ECE7EF8277}
