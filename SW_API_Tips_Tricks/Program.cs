@@ -17,8 +17,8 @@ namespace SW_API_Tips_Tricks
             //UserControlBackground.Example.Run();
             //ReleaseCOMObject.Example.Run();
             //TraverseTree.Example.Run();
-
-            ReportProgress.Example.Run();
+            //ReportProgress.Example.Run();
+            LockModel.Example.Run();
 
             Console.ReadLine();
         }
