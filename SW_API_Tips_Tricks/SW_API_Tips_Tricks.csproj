@@ -119,6 +119,10 @@
       <Project>{13096ccd-b828-4932-a17d-4e58e6db392f}</Project>
       <Name>EnableGraphicsUpdate</Name>
     </ProjectReference>
+    <ProjectReference Include="..\LockModel\ClassLibrary1\LockModel.csproj">
+      <Project>{9a202e2b-5cba-4a9c-a321-b05ca7b83301}</Project>
+      <Name>LockModel</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ReleaseCOMObject\ReleaseCOMObject.csproj">
       <Project>{439da6fd-f105-4ecc-9b93-3b411773989b}</Project>
       <Name>ReleaseCOMObject</Name>
