@@ -40,7 +40,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReportProgress", "ReportPro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportProgress", "ReportProgress\ReportProgress.csproj", "{227A9700-E83D-4A61-94AC-21E492C0C55F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDM_SearchIsFasterThanFolderIterator", "PDM_API_Tips_Tricks\PDM_SearchIsFasterThanFolderIterator.csproj", "{7FDA8EDA-B110-4527-A6F4-803B23447B8D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDM_SearchIsFasterThanFolderIterator", "PDM_SearchIsFasterThanFolderIterator\PDM_SearchIsFasterThanFolderIterator.csproj", "{7FDA8EDA-B110-4527-A6F4-803B23447B8D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PDM_SearchIsFasterThanFolderIterator", "PDM_SearchIsFasterThanFolderIterator", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject

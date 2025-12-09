@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -60,7 +60,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PDM_API_Tips_Tricks\PDM_SearchIsFasterThanFolderIterator.csproj">
+    <ProjectReference Include="..\PDM_SearchIsFasterThanFolderIterator\PDM_SearchIsFasterThanFolderIterator.csproj">
       <Project>{7fda8eda-b110-4527-a6f4-803b23447b8d}</Project>
       <Name>PDM_SearchIsFasterThanFolderIterator</Name>
     </ProjectReference>
