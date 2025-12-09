@@ -2,10 +2,9 @@
 using System;
 using System.Diagnostics;
 
-namespace PDM_API_Tips_Tricks
+namespace SWPDM_API_Tips_Tricks
 {
-    internal partial class Program
-    {
+    
         public static class SearchIsFasterThanIterator
     {
             public static void Execute()
@@ -111,5 +110,5 @@ namespace PDM_API_Tips_Tricks
 
             }
         }
-    }
+  
 }

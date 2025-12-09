@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7FDA8EDA-B110-4527-A6F4-803B23447B8D}</ProjectGuid>
+    <ProjectGuid>{DE987DA8-A115-4311-854D-303A65537181}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PDM_API_Tips_Tricks</RootNamespace>
-    <AssemblyName>PDM_API_Tips_Tricks</AssemblyName>
+    <RootNamespace>SWPDM_API_Tips_Tricks</RootNamespace>
+    <AssemblyName>SWPDM_API_Tips_Tricks</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -22,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -35,11 +36,11 @@
   <ItemGroup>
     <Reference Include="EPDM.Interop.epdm, Version=5.27.0.0, Culture=neutral, PublicKeyToken=0625a0c4bb5de148, processorArchitecture=MSIL">
       <HintPath>..\packages\BlueByte.SOLIDWORKS.PDMProfessional.Interops.2024.5.50\lib\EPDM.Interop.epdm.dll</HintPath>
-      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="EPDM.Interop.EPDMResultCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0625a0c4bb5de148, processorArchitecture=MSIL">
       <HintPath>..\packages\BlueByte.SOLIDWORKS.PDMProfessional.Interops.2024.5.50\lib\EPDM.Interop.EPDMResultCode.dll</HintPath>
-      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -53,11 +54,16 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SearchIsFasterThanIterator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PDM_API_Tips_Tricks\PDM_SearchIsFasterThanFolderIterator.csproj">
+      <Project>{7fda8eda-b110-4527-a6f4-803b23447b8d}</Project>
+      <Name>PDM_SearchIsFasterThanFolderIterator</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
